@@ -1,6 +1,7 @@
 <template>
-  <h2>{{ customTitle }}: {{ start }}</h2>
+  <h2>{{ customTitle }}</h2>
   <p> {{ counter }} <sup>2</sup> = {{ squareCounter }}</p>
+  <p data-testid="counter"> {{ counter }} </p>
 
   <div>
     <!-- El v-on: y el @ son sinonimos ambos sirven para escuchar eventos -->
